@@ -1,7 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : Ripple Carry Adder
-//========================================
+// Rahma A Dalhat — 05 July 2026 - Ripple Carry Adder
 module ripple_carry_adder(A0, A1, A2, A3, B0, B1, B2, B3, Cin, S0, S1, S2, S3, Cout);
     input A0, A1, A2, A3, B0, B1, B2, B3, Cin;
     output S0, S1, S2, S3, Cout;

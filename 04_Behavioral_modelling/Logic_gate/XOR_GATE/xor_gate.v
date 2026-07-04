@@ -1,8 +1,4 @@
-//========================================
-// Author  : Rahma A. Dalhat
-// Module  : XOR Gate (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -xor_gate
 module xor_gate(
     input A,
     input B,

@@ -1,7 +1,5 @@
-//-----------------------------------
-// 2-Bit Comparator
-// Dataflow Modelling
-//-----------------------------------
+// Rahma A Dalhat — 05 July 2026 - 2-Bit Comparator
+
 
 module comparator_2bit(
     input [1:0] A,

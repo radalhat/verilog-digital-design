@@ -1,37 +1,61 @@
-module decoder_3x8_tb;
+// Rahma A Dalhat — 05 July 2026 — 3x8 Decoder (Structural)
+module decoder2x4(
+    input A,
+    input B,
+    input En,
+    output Y0,
+    output Y1,
+    output Y2,
+    output Y3
+);
 
-reg A, B, C;
-wire Y0, Y1, Y2, Y3, Y4, Y5, Y6, Y7;
+assign Y0 = En & ~A & ~B;
+assign Y1 = En & ~A &  B;
+assign Y2 = En &  A & ~B;
+assign Y3 = En &  A &  B;
 
-decoder_3x8 uut(
-    .A(A),
-    .B(B),
-    .C(C),
+endmodule
+// 3x8 Decoder Module (Built Using Two 2x4 Decoders)
+module decoder3x8(
+    input A,
+    input B,
+    input C,
+    output Y0,
+    output Y1,
+    output Y2,
+    output Y3,
+    output Y4,
+    output Y5,
+    output Y6,
+    output Y7
+);
+
+wire En0, En1;
+
+// Enable signals
+assign En0 = ~A;
+assign En1 = A;
+
+// First 2x4 Decoder
+decoder2x4 D0(
+    .A(B),
+    .B(C),
+    .En(En0),
     .Y0(Y0),
     .Y1(Y1),
     .Y2(Y2),
-    .Y3(Y3),
-    .Y4(Y4),
-    .Y5(Y5),
-    .Y6(Y6),
-    .Y7(Y7)
+    .Y3(Y3)
 );
 
-initial
-begin
-    $monitor("A=%b B=%b C=%b | Y=%b%b%b%b%b%b%b%b",
-               A, B, C,
-              Y7,Y6,Y5,Y4,Y3,Y2,Y1,Y0);
-
-    A=0; B=0; C=0;
-    #2 C=1;
-    #2 B=1; C=0;
-    #2 C=1;
-    #2 A=1; B=0; C=0;
-    #2 C=1;
-    #2 B=1; C=0;
-    #2 C=1;
-
-end
+// Second 2x4 Decoder
+decoder2x4 D1(
+    .A(B),
+    .B(C),
+    .En(En1),
+    .Y0(Y4),
+    .Y1(Y5),
+    .Y2(Y6),
+    .Y3(Y7)
+);
 
 endmodule

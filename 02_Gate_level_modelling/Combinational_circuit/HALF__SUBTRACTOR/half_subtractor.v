@@ -1,7 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : Half Subtractor
-//========================================
+// Rahma A Dalhat — 05 July 2026 - Half Subtractor
 module half_subtractor(A, B, D, Bo);
     input A, B;
     output D, Bo;

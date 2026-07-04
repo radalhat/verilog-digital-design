@@ -1,8 +1,4 @@
-//-----------------------------------
-// 1x4 Demultiplexer
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -1x4 Demultiplexer
 module demux1x4(
     input I,
     input [1:0] S,

@@ -1,7 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 2x4 Decoder (Behavioral)
-//========================================
+// Rahma A Dalhat — 05 July 2026 -decoder2x4
 
 module decoder2x4(
     input [1:0] A,

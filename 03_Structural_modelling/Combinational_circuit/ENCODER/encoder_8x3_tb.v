@@ -1,4 +1,4 @@
-module encoder_8x3_structural_tb;
+module encoder_8x3_tb;
 
 reg D0, D1, D2, D3;
 reg D4, D5, D6, D7;

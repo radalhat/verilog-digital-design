@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 8x1 Multiplexer (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - 8x1 Multiplexer (Gate-Level)
 module mux8x1(
     input I0,
     input I1,

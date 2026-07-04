@@ -1,8 +1,4 @@
-//========================================
-// Author  : Rahma A. Dalhat
-// Module  : 2x1 Multiplexer (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -mux2x1
 module mux2x1(
     input I0,
     input I1,

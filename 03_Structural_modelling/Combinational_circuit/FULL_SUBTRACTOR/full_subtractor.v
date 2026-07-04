@@ -1,3 +1,4 @@
+// Rahma A Dalhat — 05 July 2026 -half_subtractor
 module half_subtractor(
     input A,
     input B,

@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 2-Bit Comparator (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -comparator2bit
 module comparator2bit(
     input [1:0] A,
     input [1:0] B,

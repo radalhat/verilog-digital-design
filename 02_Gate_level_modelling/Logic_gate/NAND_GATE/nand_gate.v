@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : NAND Gate (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - NAND Gate (Gate-Level)
 module nand_gate(
     input A,
     input B,

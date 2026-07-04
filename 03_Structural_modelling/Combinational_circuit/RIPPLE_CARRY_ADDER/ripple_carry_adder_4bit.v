@@ -1,3 +1,4 @@
+// Rahma A Dalhat — 05 July 2026 -ripple_carry_adder
 module full_adder(
     input A,
     input B,

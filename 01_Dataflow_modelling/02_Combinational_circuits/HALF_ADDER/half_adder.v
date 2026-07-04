@@ -1,7 +1,5 @@
-//-----------------------------------
-// Half Adder
-// Dataflow Modelling
-//-----------------------------------
+// Rahma A Dalhat — 05 July 2026 -Half Adder
+
 
 module half_adder(
     input A,

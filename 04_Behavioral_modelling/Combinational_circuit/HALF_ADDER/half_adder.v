@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : Half Adder (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -half_adder
 module half_adder(
     input A,
     input B,

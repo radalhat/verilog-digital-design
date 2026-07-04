@@ -1,8 +1,4 @@
-//-----------------------------------
-// 3x8 Decoder
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -3x8 Decoder
 module decoder3x8(
     input A,
     input B,

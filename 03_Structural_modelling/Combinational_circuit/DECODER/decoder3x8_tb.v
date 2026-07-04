@@ -1,54 +1,46 @@
-module decoder_3x8(
-    input A,
-    input B,
-    input C,
-    output Y0,
-    output Y1,
-    output Y2,
-    output Y3,
-    output Y4,
-    output Y5,
-    output Y6,
-    output Y7
-);
+module decoder3x8_tb;
 
-wire nC;
+reg A, B, C;
+wire Y0, Y1, Y2, Y3, Y4, Y5, Y6, Y7;
 
-/* use MSB split */
-assign nC = ~C;
-
-/* lower block (C=0) */
-wire y0_0, y1_0, y2_0, y3_0;
-/* upper block (C=1) */
-wire y0_1, y1_1, y2_1, y3_1;
-
-decoder_2x4 D0(
+decoder3x8 uut(
     .A(A),
     .B(B),
-    .Y0(y0_0),
-    .Y1(y1_0),
-    .Y2(y2_0),
-    .Y3(y3_0)
+    .C(C),
+    .Y0(Y0),
+    .Y1(Y1),
+    .Y2(Y2),
+    .Y3(Y3),
+    .Y4(Y4),
+    .Y5(Y5),
+    .Y6(Y6),
+    .Y7(Y7)
 );
 
-decoder_2x4 D1(
-    .A(A),
-    .B(B),
-    .Y0(y0_1),
-    .Y1(y1_1),
-    .Y2(y2_1),
-    .Y3(y3_1)
-);
+initial
+begin
+    $monitor("A=%b B=%b C=%b | Y=%b%b%b%b%b%b%b%b",
+               A, B, C,
+              Y7,Y6,Y5,Y4,Y3,Y2,Y1,Y0);
 
-/* enable selection */
-assign Y0 = nC & y0_0;
-assign Y1 = nC & y1_0;
-assign Y2 = nC & y2_0;
-assign Y3 = nC & y3_0;
+    A=0; B=0; C=0;
+    #2 C=1;
+    #2 B=1; C=0;
+    #2 C=1;
+    #2 A=1; B=0; C=0;
+    #2 C=1;
+    #2 B=1; C=0;
+    #2 C=1;
 
-assign Y4 = C & y0_1;
-assign Y5 = C & y1_1;
-assign Y6 = C & y2_1;
-assign Y7 = C & y3_1;
+end
 
 endmodule
+
+
+
+
+
+
+
+
+

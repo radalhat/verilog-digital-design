@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 1x8 Demultiplexer (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -demux1x8
 module demux1x8(
     input D,
     input [2:0] S,

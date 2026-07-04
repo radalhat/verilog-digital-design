@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 4-Bit Ripple Carry Adder (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -ripple_carry_adder
 module ripple_carry_adder(
     input [3:0] A,
     input [3:0] B,

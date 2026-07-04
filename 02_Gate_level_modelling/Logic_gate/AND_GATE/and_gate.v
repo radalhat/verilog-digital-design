@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : AND Gate (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - AND Gate (Gate-Level)
 module and_gate(
     input A,
     input B,

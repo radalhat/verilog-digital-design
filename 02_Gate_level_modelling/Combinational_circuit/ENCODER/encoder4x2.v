@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 4x2 Encoder (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - 4x2 Encoder (Gate-Level)
 module encoder4x2(
     input I0,
     input I1,

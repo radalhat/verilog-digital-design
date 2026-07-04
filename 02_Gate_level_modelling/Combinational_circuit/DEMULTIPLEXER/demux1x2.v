@@ -1,7 +1,5 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 1x2 Demultiplexer (Gate-Level)
-//========================================
+// Rahma A Dalhat — 05 July 2026 - 1x2 Demultiplexer (Gate-Level)
+
 
 module demux1x2(
     input D,

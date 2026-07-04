@@ -1,7 +1,4 @@
-//------------------------------
-// 2-Input NAND Gate
-// Dataflow Modelling
-//------------------------------
+// Rahma A Dalhat — 05 July 2026 -NAND Gate
 
 module nand_gate(
     input A,

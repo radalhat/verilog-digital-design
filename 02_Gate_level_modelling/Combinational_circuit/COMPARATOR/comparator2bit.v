@@ -1,7 +1,5 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 2-Bit Magnitude Comparator
-//========================================
+// Rahma A Dalhat — 05 July 2026 - 2-Bit Magnitude Comparator
+
 module comparator2bit(A1, A0, B1, B0, A_gt_B, A_lt_B, A_eq_B);
     input A1, A0, B1, B0;
     output A_gt_B, A_lt_B, A_eq_B;

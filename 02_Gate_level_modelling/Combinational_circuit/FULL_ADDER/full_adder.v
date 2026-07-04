@@ -1,7 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : Full Adder
-//========================================
+// Rahma A Dalhat — 05 July 2026 - Full Adder
 module full_adder(A, B, Cin, S, Cout);
     input A, B, Cin;
     output S, Cout;

@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : XNOR Gate (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - XNOR Gate (Gate-Level)
 module xnor_gate(
     input A,
     input B,

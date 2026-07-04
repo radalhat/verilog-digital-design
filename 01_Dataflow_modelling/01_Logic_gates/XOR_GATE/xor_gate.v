@@ -1,7 +1,5 @@
-//------------------------------
-// 2-Input XOR Gate
-// Dataflow Modelling
-//------------------------------
+// Rahma A Dalhat — 05 July 2026 -XOR Gate
+
 
 module xor_gate(
     input A,

@@ -1,8 +1,4 @@
-//------------------------------
-// 2-Input OR Gate
-// Dataflow Modelling
-//------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -OR Gate
 module or_gate(
     input A,
     input B,

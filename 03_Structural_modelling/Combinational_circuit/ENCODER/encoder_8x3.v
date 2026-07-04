@@ -1,3 +1,4 @@
+// Rahma A Dalhat — 05 July 2026 -encoder_8x3
 module encoder_4x2(
     input D0,
     input D1,

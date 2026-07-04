@@ -1,7 +1,5 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 2x4 Decoder
-//========================================
+// Rahma A Dalhat — 05 July 2026 - 2x4 Decoder
+
 module decoder2x4(A, B, EN, Y0, Y1, Y2, Y3);
     input A, B, EN;
     output Y0, Y1, Y2, Y3;

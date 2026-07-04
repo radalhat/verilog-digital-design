@@ -1,8 +1,4 @@
-//-----------------------------------
-// Full Subtractor
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -Full Subtractor
 module full_subtractor(
     input A,
     input B,

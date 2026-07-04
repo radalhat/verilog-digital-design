@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 4-Bit Comparator (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -comparator_4bit
 module comparator4bit(
     input [3:0] A,
     input [3:0] B,

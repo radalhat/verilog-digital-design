@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 8x3 Encoder (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - 8x3 Encoder (Gate-Level)
 module encoder8x3(
     input I0,
     input I1,

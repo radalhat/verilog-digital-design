@@ -1,8 +1,4 @@
-//========================================
-// Author  : Rahma A. Dalhat
-// Module  : NOR Gate (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -nor_gate
 module nor_gate(
     input A,
     input B,

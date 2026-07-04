@@ -1,3 +1,4 @@
+// Rahma A Dalhat — 05 July 2026 -Demux_1x4
 module demux_1x2(
     input D,
     input S,

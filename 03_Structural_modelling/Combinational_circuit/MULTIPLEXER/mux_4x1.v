@@ -1,3 +1,4 @@
+// Rahma A Dalhat — 05 July 2026 -mux_4x1
 module mux_2x1(
     input I0,
     input I1,

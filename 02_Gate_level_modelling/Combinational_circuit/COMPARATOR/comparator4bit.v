@@ -1,7 +1,5 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 4-Bit Magnitude Comparator
-//========================================
+// Rahma A Dalhat — 05 July 2026 - 4-Bit Magnitude Comparator
+
 module comparator4bit(A3, A2, A1, A0, B3, B2, B1, B0, A_gt_B, A_lt_B, A_eq_B);
     input A3, A2, A1, A0, B3, B2, B1, B0;
     output A_gt_B, A_lt_B, A_eq_B;

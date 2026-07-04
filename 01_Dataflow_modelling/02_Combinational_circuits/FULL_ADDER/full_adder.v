@@ -1,8 +1,4 @@
-//-----------------------------------
-// Full Adder
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -Full Adder
 module full_adder(
     input A,
     input B,

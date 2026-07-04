@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 3x8 Decoder (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -decoder3x8
 module decoder3x8(
     input [2:0] A,
     output reg Y0,

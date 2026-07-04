@@ -1,8 +1,4 @@
-//-----------------------------------
-// 4x2 Encoder
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 - 4x2 Encoder
 module encoder4x2(
     input D0,
     input D1,

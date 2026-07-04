@@ -1,8 +1,4 @@
-//-----------------------------------
-// Half Subtractor
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -XOR GateHalf Subtractor
 module half_subtractor(
     input A,
     input B,

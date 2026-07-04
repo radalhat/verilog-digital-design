@@ -1,7 +1,6 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 1-Bit Comparator
-//========================================
+// Rahma A Dalhat — 05 July 2026 -comparator1bit
+
+
 module comparator1bit(A, B, A_gt_B, A_lt_B, A_eq_B);
     input A, B;
     output A_gt_B, A_lt_B, A_eq_B;

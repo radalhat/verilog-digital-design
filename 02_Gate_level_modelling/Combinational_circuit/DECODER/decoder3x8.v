@@ -1,7 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 3x8 Decoder
-//========================================
+// Rahma A Dalhat — 05 July 2026 -3x8 Decoder
 module decoder3x8(A, B, C, EN, Y0, Y1, Y2, Y3, Y4, Y5, Y6, Y7);
     input A, B, C, EN;
     output Y0, Y1, Y2, Y3, Y4, Y5, Y6, Y7;

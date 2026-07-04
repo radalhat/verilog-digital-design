@@ -1,7 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : Full Subtractor
-//========================================
+// Rahma A Dalhat — 05 July 2026 - Full Subtractor
 module full_subtractor(A, B, Bin, D, Bout);
     input A, B, Bin;
     output D, Bout;

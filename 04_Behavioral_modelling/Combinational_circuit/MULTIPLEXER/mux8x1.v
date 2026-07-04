@@ -1,8 +1,4 @@
-//========================================
-// Author  : Rahma A. Dalhat
-// Module  : 8x1 Multiplexer (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -mux8x1
 module mux8x1(
     input I0,
     input I1,

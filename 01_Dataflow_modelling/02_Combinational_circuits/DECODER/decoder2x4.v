@@ -1,7 +1,5 @@
-//-----------------------------------
-// 2x4 Decoder
-// Dataflow Modelling
-//-----------------------------------
+// Rahma A Dalhat — 05 July 2026 -2x4 Decoder
+
 
 module decoder2x4(
     input A,

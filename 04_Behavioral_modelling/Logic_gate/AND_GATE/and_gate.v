@@ -1,10 +1,4 @@
-//=========================================================
-// Project : Verilog Digital Design Portfolio
-// Author  : Rahma A. Dalhat
-// Modeling: Behavioral
-// Module  : AND Gate
-//=========================================================
-
+// Rahma A Dalhat — 05 July 2026 -and_gate
 module and_gate(
     input A,
     input B,

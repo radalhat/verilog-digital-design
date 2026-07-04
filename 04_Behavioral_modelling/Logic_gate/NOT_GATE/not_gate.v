@@ -1,8 +1,4 @@
-//========================================
-// Author  : Rahma A. Dalhat
-// Module  : NOT Gate (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -not_gate
 module not_gate(
     input A,
     output reg Y

@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 4x1 Multiplexer (Gate-Level)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 - 4x1 Multiplexer (Gate-Level)
 module mux4x1(
     input I0,
     input I1,

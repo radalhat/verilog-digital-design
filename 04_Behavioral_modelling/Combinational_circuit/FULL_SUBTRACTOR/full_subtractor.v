@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : Full Subtractor (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -full_subtractor
 module full_subtractor(
     input A,
     input B,

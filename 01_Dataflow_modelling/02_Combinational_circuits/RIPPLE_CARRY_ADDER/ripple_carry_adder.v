@@ -1,7 +1,5 @@
-//-----------------------------------
-// 4-Bit Ripple Carry Adder
-// Dataflow Modelling
-//-----------------------------------
+// Rahma A Dalhat — 05 July 2026 -4-Bit Ripple Carry Adder
+
 
 module ripple_carry_adder(
     input [3:0] A,

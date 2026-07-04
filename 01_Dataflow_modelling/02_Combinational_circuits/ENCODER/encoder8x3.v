@@ -1,7 +1,5 @@
-//-----------------------------------
-// 8x3 Encoder
-// Dataflow Modelling
-//-----------------------------------
+// Rahma A Dalhat — 05 July 2026 -8x3 Encoder
+
 
 module encoder8x3(
     input D0,

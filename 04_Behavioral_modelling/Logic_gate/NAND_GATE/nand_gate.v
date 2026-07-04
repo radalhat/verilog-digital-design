@@ -1,8 +1,4 @@
-//========================================
-// Author  : Rahma A. Dalhat
-// Module  : NAND Gate (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -nand_gate
 module nand_gate(
     input A,
     input B,

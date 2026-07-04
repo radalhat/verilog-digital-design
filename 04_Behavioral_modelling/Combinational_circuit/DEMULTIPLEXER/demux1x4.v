@@ -1,8 +1,4 @@
-//========================================
-// Author : Rahma A. Dalhat
-// Module : 1x4 Demultiplexer (Behavioral)
-//========================================
-
+// Rahma A Dalhat — 05 July 2026 -demux1x4
 module demux1x4(
     input D,
     input [1:0] S,

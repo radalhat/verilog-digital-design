@@ -1,8 +1,4 @@
-//-----------------------------------
-// 4x1 Multiplexer
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 -4x1 Multiplexer
 module mux4x1(
     input I0,
     input I1,

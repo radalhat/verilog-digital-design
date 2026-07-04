@@ -1,8 +1,4 @@
-//-----------------------------------
-// 1-Bit Comparator
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 - 1-Bit Comparator
 module comparator_1bit(
     input A,
     input B,

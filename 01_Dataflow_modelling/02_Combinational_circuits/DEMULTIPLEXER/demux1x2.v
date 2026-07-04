@@ -1,8 +1,4 @@
-//-----------------------------------
-// 1x2 Demultiplexer
-// Dataflow Modelling
-//-----------------------------------
-
+// Rahma A Dalhat — 05 July 2026 - 1x2 Demultiplexer
 module demux1x2(
     input I,
     input S,

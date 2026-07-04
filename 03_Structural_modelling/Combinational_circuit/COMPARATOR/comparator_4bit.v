@@ -1,3 +1,4 @@
+// Rahma A Dalhat — 05 July 2026 -comparator_1bit
 module comparator_2bit(
     input A1, A0,
     input B1, B0,
