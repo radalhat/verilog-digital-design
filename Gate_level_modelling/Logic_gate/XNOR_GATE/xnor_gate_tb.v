@@ -1,8 +1,5 @@
 
-//========================================
-// Author : Rahma A. Dalhat
-// Testbench : XNOR Gate
-//========================================
+// Author : Rahma A. Dalhat — 05 July 2026 : XNOR Gate
 
 module xnor_gate_tb;
 
