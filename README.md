@@ -53,9 +53,10 @@ Each project folder contains:
 ## Tools Used
 
 - Verilog HDL
-- Icarus Verilog
-- GTKWave
+- VCS Verilog
+- Synopsis
 - Visual Studio Code
+- Questasim
 - Git
 - GitHub
 

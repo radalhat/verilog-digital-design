@@ -24,7 +24,7 @@ Multiplexer/
 ├── mux_4x1_structural_tb.v
 ├── mux_8x1_structural.v
 ├── mux_8x1_structural_tb.v
-├── waveform.png
+├── mux.png
 └── README.md
 ```
 

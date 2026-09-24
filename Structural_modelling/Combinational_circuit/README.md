@@ -27,8 +27,8 @@ Each project folder contains:
 ## Tools Used
 
 - Verilog HDL
-- Icarus Verilog
-- GTKWave
+- Synopsis
+- VCS
 - Visual Studio Code
 
 ## What I Learned

@@ -27,7 +27,7 @@ The design is tested with different input combinations to verify that the Sum an
 Half_Adder/
 ├── half_adder_gate.v
 ├── half_adder_gate_tb.v
-├── waveform.png
+├── half_adder.png
 └── README.md
 ```
 

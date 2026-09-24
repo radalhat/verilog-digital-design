@@ -10,13 +10,19 @@ Gate-level modeling describes a digital circuit by connecting built-in Verilog g
 
 ## Implementations Included
 
-- AND Gate
-- OR Gate
-- NOT Gate
-- NAND Gate
-- NOR Gate
-- XOR Gate
-- XNOR Gate
+* AND Gate
+
+* OR Gate
+
+* NOT Gate
+
+* NAND Gate
+
+* NOR Gate
+
+* XOR Gate
+
+* XNOR Gate
 
 Each logic gate includes an individual testbench for functional verification.
 
@@ -24,33 +30,41 @@ Each logic gate includes an individual testbench for functional verification.
 
 ```text
 Logic_Gates/
+
 ├── AND_Gate/
 │   ├── and_gate.v
 │   ├── and_gate_tb.v
+│   └── and_gate.png
 │
 ├── OR_Gate/
 │   ├── or_gate.v
 │   ├── or_gate_tb.v
+│   └── or_gate.png
 │
 ├── NOT_Gate/
 │   ├── not_gate.v
 │   ├── not_gate_tb.v
+│   └── not_gate.png
 │
 ├── NAND_Gate/
 │   ├── nand_gate.v
 │   ├── nand_gate_tb.v
+│   └── nand_gate.png
 │
 ├── NOR_Gate/
 │   ├── nor_gate.v
 │   ├── nor_gate_tb.v
+│   └── nor_gate.png
 │
 ├── XOR_Gate/
 │   ├── xor_gate.v
 │   ├── xor_gate_tb.v
+│   └── xor_gate.png
 │
 ├── XNOR_Gate/
 │   ├── xnor_gate.v
 │   ├── xnor_gate_tb.v
+│   └── xnor_gate.png
 │
 └── README.md
 ```
@@ -59,12 +73,12 @@ Logic_Gates/
 
 Logic gates are fundamental components used in:
 
-- Arithmetic circuits
-- Multiplexers and decoders
-- Comparators
-- Memory and processor design
-- FPGA and ASIC development
-- Digital control systems
+* Arithmetic circuits
+* Multiplexers and decoders
+* Comparators
+* Memory and processor design
+* FPGA and ASIC development
+* Digital control systems
 
 ## Conclusion
 

@@ -20,8 +20,8 @@ Demultiplexer/
 ├── demux_1x4_structural_tb.v
 ├── demux_1x8_structural.v
 ├── demux_1x8_structural_tb.v
-├── waveform_1x4.png
-├── waveform_1x8.png
+├── demux_1x4.png
+├── demux_1x8.png
 └── README.md
 ```
 

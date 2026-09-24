@@ -25,7 +25,7 @@ It produces two outputs:
 Full_Adder/
 ├── full_adder_structural.v
 ├── full_adder_structural_tb.v
-├── waveform.png
+├── full_adder.png
 └── README.md
 ```
 

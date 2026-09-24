@@ -22,7 +22,7 @@ The design is tested with different input combinations to verify that the Sum an
 Ripple_Carry_Adder/
 ├── ripple_carry_adder_gate.v
 ├── ripple_carry_adder_gate_tb.v
-├── waveform.png
+├── ripple_carry_adder.png
 └── README.md
 ```
 

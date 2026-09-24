@@ -13,7 +13,6 @@ Dataflow_Modeling/
 │
 ├── Logic_Gates/
 ├── Combinational_Circuits/
-└── Sequential_Circuits/
 ```
 
 ## Contents

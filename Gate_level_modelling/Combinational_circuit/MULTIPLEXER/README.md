@@ -32,7 +32,7 @@ Multiplexer/
 ├── mux4x1_tb.v
 ├── mux8x1.v
 ├── mux8x1_tb.v
-├── waveform.png
+├── mux...png
 └── README.md
 ```
 

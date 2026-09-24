@@ -29,7 +29,7 @@ Decoder/
 ├── decoder_2x4_gate_tb.v
 ├── decoder_3x8_gate.v
 ├── decoder_3x8_gate_tb.v
-├── waveform.png
+├── decoder...png
 └── README.md
 ```
 

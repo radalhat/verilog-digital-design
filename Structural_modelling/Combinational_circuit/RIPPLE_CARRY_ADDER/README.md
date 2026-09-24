@@ -12,8 +12,8 @@ I created this project to practice structural modeling and understand how carry 
 
 - ripple_carry_adder.v
 - ripple_carry_adder_tb.v
-- waveform.png
-
+- ripple_carry_adder.png
+- README.md
 ## Design Description
 
 The design performs 4-bit binary addition.

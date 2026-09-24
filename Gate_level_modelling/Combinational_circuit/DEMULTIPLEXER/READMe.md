@@ -32,7 +32,7 @@ Demultiplexer/
 ├── demux1x4_tb.v
 ├── demux1x8.v
 ├── demux1x8_tb.v
-├── waveform.png
+├── demux...png
 └── README.md
 ```
 

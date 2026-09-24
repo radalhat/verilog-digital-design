@@ -27,7 +27,7 @@ The design is tested with different input combinations to verify that the Differ
 Full_Subtractor/
 ├── full_subtractor_gate.v
 ├── full_subtractor_gate_tb.v
-├── waveform.png
+├── full_subtractor.png
 └── README.md
 ```
 

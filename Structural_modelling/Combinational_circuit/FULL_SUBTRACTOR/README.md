@@ -20,7 +20,7 @@ This project helped me understand how arithmetic circuits can be built by connec
 Full_Subtractor/
 ├── full_subtractor_structural.v
 ├── full_subtractor_structural_tb.v
-├── waveform.png
+├── full_subtractor.png
 └── README.md
 ```
 

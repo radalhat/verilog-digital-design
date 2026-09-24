@@ -27,7 +27,7 @@ The design is tested with different input combinations to verify that the Sum an
 Full_Adder/
 ├── full_adder_gate.v
 ├── full_adder_gate_tb.v
-├── waveform.png
+├── full_adder.png
 └── README.md
 ```
 

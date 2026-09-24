@@ -32,7 +32,7 @@ Comparator/
 ├── comparator_2bit_gate_tb.v
 ├── comparator_4bit_gate.v
 ├── comparator_4bit_gate_tb.v
-├── waveform.png
+├── comparator...png
 └── README.md
 ```
 

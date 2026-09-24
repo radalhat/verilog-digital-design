@@ -24,8 +24,8 @@ Comparator/
 ├── comparator_2bit_structural_tb.v
 ├── comparator_4bit_structural.v
 ├── comparator_4bit_structural_tb.v
-├── waveform_2bit.png
-├── waveform_4bit.png
+├── comparator_2bit.png
+├── comparator_4bit.png
 └── README.md
 ```
 
