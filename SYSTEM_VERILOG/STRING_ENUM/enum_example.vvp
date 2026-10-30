@@ -1,0 +1,51 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2009.vpi";
+S_0000029413e17290 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0000029413dc6b40 .scope module, "enum_example" "enum_example" 3 1;
+ .timescale 0 0;
+enum0000029413e16e90 .enum2/s (32)
+   "Sat" 0,
+   "Sun" 1,
+   "Mon" 2,
+   "Tue" 3,
+   "Wed" 4,
+   "Thurs" 5,
+   "Fri" 6
+ ;
+v0000029413e17420_0 .var/2s "Day", 31 0;
+    .scope S_0000029413dc6b40;
+T_0 ;
+    %vpi_call/w 3 7 "$display", "The First Day is %s, The Value is %d", 32'sb00000000000000000000000000000000, 32'sb00000000000000000000000000000000 {0 0 0};
+    %vpi_func 3 8 "$ivl_enum_method$next" 32, enum0000029413e16e90, v0000029413e17420_0 {0 0 0};
+    %vpi_func 3 8 "$ivl_enum_method$next" 32, enum0000029413e16e90, v0000029413e17420_0 {0 0 0};
+    %vpi_call/w 3 8 "$display", "The Second Day is %s, The Value is %d", S<1,vec4,s32>, S<0,vec4,s32> {2 0 0};
+    %vpi_func 3 9 "$ivl_enum_method$next" 32, enum0000029413e16e90, v0000029413e17420_0, 32'sb00000000000000000000000000000010 {0 0 0};
+    %vpi_func 3 9 "$ivl_enum_method$next" 32, enum0000029413e16e90, v0000029413e17420_0, 32'sb00000000000000000000000000000010 {0 0 0};
+    %vpi_call/w 3 9 "$display", "The Third Day is %s, The Value is %d", S<1,vec4,s32>, S<0,vec4,s32> {2 0 0};
+    %vpi_func 3 10 "$ivl_enum_method$next" 32, enum0000029413e16e90, v0000029413e17420_0, 32'sb00000000000000000000000000000011 {0 0 0};
+    %vpi_func 3 10 "$ivl_enum_method$next" 32, enum0000029413e16e90, v0000029413e17420_0, 32'sb00000000000000000000000000000011 {0 0 0};
+    %vpi_call/w 3 10 "$display", "The Fourth Day is %s, The Value is %d", S<1,vec4,s32>, S<0,vec4,s32> {2 0 0};
+    %vpi_func 3 11 "$ivl_enum_method$prev" 32, enum0000029413e16e90, v0000029413e17420_0 {0 0 0};
+    %vpi_func 3 11 "$ivl_enum_method$prev" 32, enum0000029413e16e90, v0000029413e17420_0 {0 0 0};
+    %vpi_call/w 3 11 "$display", "The Previous Day is %s, The Value is %d", S<1,vec4,s32>, S<0,vec4,s32> {2 0 0};
+    %vpi_func 3 12 "$ivl_enum_method$prev" 32, enum0000029413e16e90, v0000029413e17420_0, 32'sb00000000000000000000000000000010 {0 0 0};
+    %vpi_func 3 12 "$ivl_enum_method$prev" 32, enum0000029413e16e90, v0000029413e17420_0, 32'sb00000000000000000000000000000011 {0 0 0};
+    %vpi_call/w 3 12 "$display", "The 2-Previous Day is %s, The Value is %d", S<1,vec4,s32>, S<0,vec4,s32> {2 0 0};
+    %vpi_call/w 3 13 "$display", "The Number is Day is %d", 32'sb00000000000000000000000000000111 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "enum_example.sv";

@@ -1,0 +1,47 @@
+Start time: 17:21:45 on Sep 14,2026
+qverilog tb_top.sv 
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+# vsim -lib work work.tb_top -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_top(fast)
+# Loading work.and_if(fast)
+# Loading work.and_pkg(fast)
+# Loading work.test_sv_unit(fast)
+# Loading work.test(fast)
+# run -all
+# [GENERATOR] A=1, B=0 | Y=x
+# [GENERATOR] A=1, B=0 | Y=x
+# [GENERATOR] A=0, B=1 | Y=x
+# [GENERATOR] A=1, B=0 | Y=x
+# [GENERATOR] A=0, B=1 | Y=x
+# [GENERATOR] A=1, B=1 | Y=x
+# [GENERATOR] A=1, B=1 | Y=x
+# [GENERATOR] A=0, B=0 | Y=x
+# [GENERATOR] A=1, B=1 | Y=x
+# [GENERATOR] A=1, B=0 | Y=x
+# [DRIVER] A=1, B=0 | Y=x
+# [INPUT MONITOR] Captured Inputs: A=1, B=0
+# [OUTPUT MONITOR] Captured Output: Y=0
+# [SCOREBOARD PASS] Inputs: A=1 B=0 | Expected Y=0, Got Y=0
+# ** Note: $finish    : environment.sv(40)
+#    Time: 10 ns  Iteration: 0  Instance: /tb_top/t1
+# End time: 17:21:49 on Sep 14,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0

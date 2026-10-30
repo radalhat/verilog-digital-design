@@ -1,0 +1,124 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rahma/Desktop/verilog-digital/verilog-digital-design/projects/FSM
+T_opt
+!s110 1793396840
+V7oc5<@Rjf2j42P7:CO7RN1
+Z1 04 2 4 work tb fast 0
+=1-743af48cd48a-6ae51067-171-d1c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1793397117
+V9]cUZ4;kQa08`?PE1NG1H3
+R1
+=1-743af48cd48a-6ae5117c-174-8468
+R2
+R3
+n@_opt1
+R4
+vcounter_fsm
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 !s110 1793397088
+!i10b 1
+!s100 eURNP4?jn;PQnaD^SFSGm1
+IDf;_ERI[hN67^T9d>U4Ti1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+!s105 counter_fsm_v_unit
+S1
+R0
+w1793394171
+8counter_fsm.v
+Fcounter_fsm.v
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1793397088.000000
+Z10 !s107 tb.sv|counter_fsm.v|
+Z11 !s90 -sv|counter_fsm.v|tb.sv|
+!i113 0
+Z12 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Yfsm_counter_if
+R5
+R6
+!i10b 1
+!s100 R_8SaaF1gN5H[I8JFXc?U0
+ITk45>j@fOQ;l?MX]Tc1X41
+R7
+Z13 !s105 tb_sv_unit
+S1
+R0
+Z14 w1793396766
+Z15 8tb.sv
+Z16 Ftb.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vtb
+R5
+DXx4 work 10 tb_sv_unit 0 22 m;EVB[3f0E6j;7DdO9f9W2
+R7
+r1
+!s85 0
+!i10b 1
+!s100 94D`VT3_zMDhoiaEiX2dM1
+IJ5NOnFM;9^c2J5^6A]lhW1
+R13
+S1
+R0
+R14
+R15
+R16
+L0 21
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+Xtb_sv_unit
+R5
+Vm;EVB[3f0E6j;7DdO9f9W2
+r1
+!s85 0
+!i10b 1
+!s100 XmH5z;3nfokf=8ckK4^5R1
+Im;EVB[3f0E6j;7DdO9f9W2
+!i103 1
+S1
+R0
+R14
+R15
+R16
+L0 11
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3

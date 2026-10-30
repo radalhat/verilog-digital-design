@@ -1,0 +1,26 @@
+// Halima Diyauddeen - 2026-union example
+
+module union_example;
+student union
+{
+    int number;
+    logic [24:0] bits;
+} student_id;
+
+student_id data;
+
+initial begin
+
+    data.number = 25'd10;
+
+    $display("number = %0d", data.number);
+    $display("bits   = %b", data.bits);
+
+    data.bits = 25'h0000000F;
+
+    $display("number = %0d", data.number);
+    $display("bits   = %b", data.bits);
+
+end
+
+endmodule

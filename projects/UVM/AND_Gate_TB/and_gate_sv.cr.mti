@@ -1,0 +1,92 @@
+C:/Users/rahma/Documents/ass/AND_Gate_TB/generator.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/generator.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/generator.sv(2): Invalid type 'transaction'. Please check the type of the variable 'tr'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/generator.sv(3): (vlog-2730) Undefined variable: 'transaction'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/generator.sv(13): (vlog-2730) Undefined variable: 'tr'.
+
+} {3.0 6.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/output_monitor.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/output_monitor.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/output_monitor.sv(3): (vlog-2730) Undefined variable: 'transaction'.
+** Error: (vlog-13069) C:/Users/rahma/Documents/ass/AND_Gate_TB/output_monitor.sv(12): near ";": syntax error, unexpected ';', expecting '('.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/output_monitor.sv(14): (vlog-2730) Undefined variable: 'tr'.
+
+} {3.0 6.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/tb_top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/tb_top.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/test.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/test.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/test.sv(1): (vlog-13006) Could not find the package (and_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+
+} {3.0 4.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/and_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/and_if.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling interface and_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/and_gate.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/and_gate.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module and_gate
+
+Top level modules:
+	and_gate
+
+} {} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling package and_pkg
+** Error: (vlog-13069) ** while parsing file included at C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv(7)
+** at scoreboard.sv(27): near "endtask": syntax error, unexpected endtask.
+** Error: ** while parsing file included at C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv(8)
+** at environment.sv(14): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv(8)
+** at environment.sv(25): near "endfunction": syntax error, unexpected endfunction.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv(8)
+** at environment.sv(35): near "endtask": syntax error, unexpected endtask.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv(8)
+** at environment.sv(41): near "endtask": syntax error, unexpected endtask.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/rahma/Documents/ass/AND_Gate_TB/and_pkg.sv(8)
+** at environment.sv(46): near "endtask": syntax error, unexpected endtask.
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/driver.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/driver.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/driver.sv(3): (vlog-2730) Undefined variable: 'transaction'.
+** Error: (vlog-13069) C:/Users/rahma/Documents/ass/AND_Gate_TB/driver.sv(12): near ";": syntax error, unexpected ';', expecting '('.
+
+} {3.0 5.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(2): Invalid type 'generator'. Please check the type of the variable 'gen'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(3): Invalid type 'driver'. Please check the type of the variable 'drv'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(4): Invalid type 'input_monitor'. Please check the type of the variable 'in_mon'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(5): Invalid type 'output_monitor'. Please check the type of the variable 'out_mon'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(6): Invalid type 'scoreboard'. Please check the type of the variable 'scb'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(8): (vlog-2730) Undefined variable: 'transaction'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(20): (vlog-2730) Undefined variable: 'gen'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(21): (vlog-2730) Undefined variable: 'drv'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(22): (vlog-2730) Undefined variable: 'in_mon'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(23): (vlog-2730) Undefined variable: 'out_mon'.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/environment.sv(24): (vlog-2730) Undefined variable: 'scb'.
+
+} {3.0 14.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/transaction.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/input_monitor.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/input_monitor.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/input_monitor.sv(3): (vlog-2730) Undefined variable: 'transaction'.
+** Error: (vlog-13069) C:/Users/rahma/Documents/ass/AND_Gate_TB/input_monitor.sv(12): near ";": syntax error, unexpected ';', expecting '('.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/input_monitor.sv(14): (vlog-2730) Undefined variable: 'tr'.
+
+} {3.0 6.0} {}} C:/Users/rahma/Documents/ass/AND_Gate_TB/scoreboard.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/rahma/Documents/ass/AND_Gate_TB/scoreboard.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/scoreboard.sv(2): (vlog-2730) Undefined variable: 'transaction'.
+** Error: (vlog-13069) C:/Users/rahma/Documents/ass/AND_Gate_TB/scoreboard.sv(12): near ",": syntax error, unexpected ',', expecting '('.
+** Error: C:/Users/rahma/Documents/ass/AND_Gate_TB/scoreboard.sv(15): Illegal declaration after the statement near line '12'.  Declarations must precede statements.  Look for stray semicolons.
+** Error: (vlog-13069) C:/Users/rahma/Documents/ass/AND_Gate_TB/scoreboard.sv(27): near "endtask": syntax error, unexpected endtask.
+
+} {3.0 7.0} {}}
